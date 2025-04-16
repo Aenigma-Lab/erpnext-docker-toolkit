@@ -1,8 +1,8 @@
-🚀 ERPNext Docker Installer & Uninstaller Script
-
+## 🚀 ERPNext Docker Installer & Uninstaller Script
 
 One-click install/uninstall ERPNext using Docker – Simple, Fast, and Hassle-Free
-🛠️ Features
+
+## 🛠️ Features
 
    • 🐳 Docker-Based – Clean and isolated ERPNext setup using Docker containers.
 
@@ -18,11 +18,11 @@ One-click install/uninstall ERPNext using Docker – Simple, Fast, and Hassle-Fr
 
    • 📦 Modular Setup – Customize your environment (e.g., MariaDB, Redis, NGINX).
 
-📸 UI Preview
+## 📸 UI Preview
 
     Add a screenshot or terminal snippet here to showcase the install/uninstall prompt.
 
-🖥️ UI Preview
+## 🖥️ UI Preview
 
     Welcome to ERPNext Docker Installer 🚀
     --------------------------------------
@@ -30,7 +30,7 @@ One-click install/uninstall ERPNext using Docker – Simple, Fast, and Hassle-Fr
     [2] Uninstall ERPNext
     [3] Exit
 
-📁 Project Structure
+## 📁 Project Structure
 
       📦 erpnext-docker-installer
      ┣ 📜 install.sh
@@ -40,7 +40,7 @@ One-click install/uninstall ERPNext using Docker – Simple, Fast, and Hassle-Fr
          ┣ 📜 docker-compose.yml
          ┗ 📜 .env
 
-📦 Requirements
+## 📦 Requirements
 
     Docker
 
@@ -48,18 +48,18 @@ One-click install/uninstall ERPNext using Docker – Simple, Fast, and Hassle-Fr
 
     Bash
 
-⚡ Quick Start
+## ⚡ Quick Start
 
       git clone https://github.com/yourusername/erpnext-docker-installer.git
       cd erpnext-docker-installer
       chmod +x install.sh uninstall.sh
       ./install.sh
 
-🗑️ To remove ERPNext and docker completely
+## 🗑️ To remove ERPNext and docker completely
 
     ./uninstall.sh
 
-🤝 Contributing
+## 🤝 Contributing
 
  •  Pull requests are welcome! Please open issues first to discuss major changes.
     Make sure to update tests as appropriate.
