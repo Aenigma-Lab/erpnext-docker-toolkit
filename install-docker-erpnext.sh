@@ -92,6 +92,12 @@ newgrp docker <<EONG
 git clone https://github.com/frappe/frappe_docker.git
 cd frappe_docker
 
+# SET FOLDER PERMISSIONS TO 777
+echo "🔐 Giving full permissions (777) to frappe_docker folder..."
+cd ..
+sudo chmod -R 777 frappe_docker
+cd frappe_docker
+
 # RUN COMPOSE (you may want to change this to a valid .yml file like development.yml)
 if [ -f "pwd.yml" ]; then
     docker compose -f pwd.yml up -d
