@@ -65,4 +65,3 @@ echo "🔍 Verifying installed apps..."
 docker exec -u frappe -it "$CONTAINER_ID" bench --site "$SITE" list-apps
 
 echo "✅ All apps installed and configured successfully!"
-
